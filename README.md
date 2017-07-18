@@ -30,4 +30,13 @@ $ python -i mnist_setup.py # launch a python shell after running mnist_setup.py
 ...    correct += 1
 >>> correct
 52 # after training on only 100 images, ann performs at roughly 52% accuracy
+# training on more images produces better results, but takes significantly longer
 ```
+
+## Code Organization
+
+All the ANN stuff is in ann.py
+
+Reading images and labels from MNIST data is in mnist.py
+
+Short initialization code is run in setup_mnist.py
